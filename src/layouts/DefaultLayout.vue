@@ -21,7 +21,7 @@ const navItems = [
           <div class="w-9 h-9 bg-primary rounded-xl flex items-center justify-center shadow-lg shadow-primary/25">
             <CheckSquare class="w-5 h-5 text-primary-foreground" />
           </div>
-          <span class="text-xl font-bold tracking-tight bg-clip-text text-transparent bg-gradient-to-r from-foreground to-foreground/70">Organizer</span>
+          <span class="text-xl font-bold tracking-tight text-foreground">Tod</span>
         </div>
 
         <nav class="flex-1 px-3 space-y-1.5 mt-4">
