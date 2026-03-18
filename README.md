@@ -1,5 +1,21 @@
-# Vue 3 + TypeScript + Vite
+# tod
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+Personal organizer built with Vue 3 + Vite + Tailwind v4 + shadcn-vue + Pinia + FullCalendar.
 
-Learn more about the recommended Project Setup and IDE Support in the [Vue Docs TypeScript Guide](https://vuejs.org/guide/typescript/overview.html#project-setup).
+## Scripts
+- Dev: `npm run dev`
+- Build: `npm run build`
+- Preview: `npm run preview`
+- Type-check: `npx vue-tsc --noEmit`
+
+## Features
+- Modern UI (shadcn-vue + Tailwind v4)
+- Todolist with date & optional time
+- Calendar mapping (all-day or timed events)
+- LocalStorage persistence
+
+## Project Map
+- Layout: `src/layouts/DefaultLayout.vue`
+- Router: `src/router/index.ts`
+- Stores: `src/stores/todos.ts`, `src/stores/calendar.ts`
+- Views: `src/views/TodolistView.vue`, `src/views/CalendarView.vue`

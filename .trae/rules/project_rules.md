@@ -1,4 +1,4 @@
-# 项目开发规则（personal-organizer）
+# 项目开发规则（tod）
 
 本项目栈：Vue 3 + Vite + Tailwind CSS v4 + shadcn-vue + Pinia + FullCalendar  
 目标：保持一致的代码风格、稳定的工程体验与优雅的 UI。
@@ -62,4 +62,3 @@
   - 避免在 `@apply` 中使用 `!important`；必要时改为标准 CSS。
 - 任务日期出现在当天：
   - 创建时传入 `selectedDate`；不要使用 `toISOString()`；检查 `calendar.ts` 映射。
-

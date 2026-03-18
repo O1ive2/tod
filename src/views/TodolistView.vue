@@ -30,9 +30,9 @@ function addTodo() {
 function formatDate(dateStr: string) {
   const parts = dateStr.split('-')
   if (parts.length === 3) {
-    const year = parseInt(parts[0])
-    const month = parseInt(parts[1])
-    const day = parseInt(parts[2])
+    const year = parseInt(parts[0] as string)
+    const month = parseInt(parts[1] as string)
+    const day = parseInt(parts[2] as string)
     const date = new Date(year, month - 1, day)
     return date.toLocaleDateString('zh-CN', { month: 'short', day: 'numeric' })
   }
